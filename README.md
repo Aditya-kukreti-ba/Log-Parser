@@ -1,6 +1,8 @@
 # 🔍 Network Traffic Inspector
 ### A Data Engineering AI Project for Log & Packet Analysis
 
+🌐 **Live Demo:** [https://log-parser-ten.vercel.app/](https://log-parser-ten.vercel.app/)
+
 A beginner-friendly tool for analysing network traffic captured by **Wireshark**, plus a Python pipeline for parsing server log files. Built with **Pandas**, **NumPy**, and **React**.
 
 ---
@@ -81,8 +83,8 @@ python pipeline.py --file access.log --format apache_common --out ./output
 
 ### Running the React Dashboard
 
-**Option A — Use it directly in Claude** (no setup needed)
-The dashboard runs as an interactive artifact in the chat.
+**Option A — Use the live hosted version** (no setup needed)
+Visit **[https://log-parser-ten.vercel.app/](https://log-parser-ten.vercel.app/)** — works instantly in any browser.
 
 **Option B — Run locally with Create React App**
 ```bash
